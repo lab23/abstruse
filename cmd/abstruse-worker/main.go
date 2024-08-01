@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/bleenco/abstruse/worker/cmd"
+	"github.com/lab23/abstruse/worker/cmd"
 )
 
 func main() {

@@ -6,10 +6,10 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/bleenco/abstruse/pkg/gitscm"
-	"github.com/bleenco/abstruse/server/core"
 	"github.com/drone/go-scm/scm"
 	"github.com/jinzhu/gorm"
+	"github.com/lab23/abstruse/pkg/gitscm"
+	"github.com/lab23/abstruse/server/core"
 )
 
 // New returns a new RepositoryStore.

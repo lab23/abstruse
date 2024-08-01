@@ -6,9 +6,9 @@ import (
 	"net"
 	"sync"
 
-	"github.com/bleenco/abstruse/internal/auth"
 	"github.com/gobwas/ws"
 	"github.com/gobwas/ws/wsutil"
+	"github.com/lab23/abstruse/internal/auth"
 )
 
 // Client defines websocket connection.

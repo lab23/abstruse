@@ -1,11 +1,12 @@
+//go:build wireinject
 // +build wireinject
 
 package cmd
 
 import (
-	"github.com/bleenco/abstruse/worker/app"
-	"github.com/bleenco/abstruse/worker/logger"
 	"github.com/google/wire"
+	"github.com/lab23/abstruse/worker/app"
+	"github.com/lab23/abstruse/worker/logger"
 )
 
 func CreateApp() (*application, error) {

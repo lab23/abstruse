@@ -1,8 +1,8 @@
 package team
 
 import (
-	"github.com/bleenco/abstruse/server/core"
 	"github.com/jinzhu/gorm"
+	"github.com/lab23/abstruse/server/core"
 )
 
 // New returns new TeamStore.

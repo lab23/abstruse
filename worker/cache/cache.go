@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	api "github.com/bleenco/abstruse/pb"
-	"github.com/bleenco/abstruse/pkg/fs"
+	api "github.com/lab23/abstruse/pb"
+	"github.com/lab23/abstruse/pkg/fs"
 )
 
 func SaveCache(job *api.Job, dir string) (string, error) {

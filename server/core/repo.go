@@ -3,10 +3,10 @@ package core
 import (
 	"fmt"
 
-	"github.com/bleenco/abstruse/pkg/gitscm"
-	"github.com/bleenco/abstruse/pkg/lib"
 	"github.com/drone/go-scm/scm"
 	"github.com/jinzhu/gorm"
+	"github.com/lab23/abstruse/pkg/gitscm"
+	"github.com/lab23/abstruse/pkg/lib"
 )
 
 type (

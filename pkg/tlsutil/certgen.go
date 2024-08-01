@@ -13,7 +13,7 @@ import (
 	"path"
 	"time"
 
-	"github.com/bleenco/abstruse/pkg/fs"
+	"github.com/lab23/abstruse/pkg/fs"
 )
 
 // CheckAndGenerateCert checks if clients certificate exists and if not

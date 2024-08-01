@@ -6,10 +6,10 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/bleenco/abstruse/internal/auth"
-	"github.com/bleenco/abstruse/server/api/render"
-	"github.com/bleenco/abstruse/server/core"
 	"github.com/go-chi/chi"
+	"github.com/lab23/abstruse/internal/auth"
+	"github.com/lab23/abstruse/server/api/render"
+	"github.com/lab23/abstruse/server/core"
 )
 
 // HandleLog returns http.handlerFunc that writes JSON encoded

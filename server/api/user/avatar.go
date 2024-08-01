@@ -8,8 +8,8 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/bleenco/abstruse/pkg/lib"
-	"github.com/bleenco/abstruse/server/api/render"
+	"github.com/lab23/abstruse/pkg/lib"
+	"github.com/lab23/abstruse/server/api/render"
 )
 
 // HandleAvatar returns http.HandlerFunc that writes JSON encoded

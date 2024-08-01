@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bleenco/abstruse/pkg/stats"
-	"github.com/bleenco/abstruse/server/core"
-	"github.com/bleenco/abstruse/server/ws"
+	"github.com/lab23/abstruse/pkg/stats"
+	"github.com/lab23/abstruse/server/core"
+	"github.com/lab23/abstruse/server/ws"
 )
 
 // New returns new StatsService instance.

@@ -12,10 +12,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/bleenco/abstruse/worker/config"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
 	"github.com/docker/docker/pkg/jsonmessage"
+	"github.com/lab23/abstruse/worker/config"
 )
 
 // ImageBuildOutput defines log output when building image.

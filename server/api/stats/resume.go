@@ -3,9 +3,9 @@ package stats
 import (
 	"net/http"
 
-	"github.com/bleenco/abstruse/server/api/middlewares"
-	"github.com/bleenco/abstruse/server/api/render"
-	"github.com/bleenco/abstruse/server/core"
+	"github.com/lab23/abstruse/server/api/middlewares"
+	"github.com/lab23/abstruse/server/api/render"
+	"github.com/lab23/abstruse/server/core"
 )
 
 // HandleResume returns an http.HandlerFunc which writes JSON encoded

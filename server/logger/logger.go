@@ -3,7 +3,7 @@ package logger
 import (
 	"os"
 
-	"github.com/bleenco/abstruse/server/config"
+	"github.com/lab23/abstruse/server/config"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"

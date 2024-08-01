@@ -85,7 +85,7 @@ Available flags for `abstruse-worker`:
 
 1. Clone repository
 ```sh
-git clone https://github.com/bleenco/abstruse && cd abstruse
+git clone https://github.com/lab23/abstruse && cd abstruse
 ```
 2. Build Docker images
 ```sh
@@ -101,7 +101,7 @@ docker-compose -f configs/demo/default/docker-compose.yml up -d
 
 1. Clone repository
 ```sh
-git clone https://github.com/bleenco/abstruse && cd abstruse
+git clone https://github.com/lab23/abstruse && cd abstruse
 ```
 2. Install dependencies
 This steps assumes that you have `go` and `node` and `yarn` installed on your host.

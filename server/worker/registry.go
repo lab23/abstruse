@@ -3,7 +3,7 @@ package worker
 import (
 	"sync"
 
-	"github.com/bleenco/abstruse/server/core"
+	"github.com/lab23/abstruse/server/core"
 	"go.uber.org/zap"
 )
 

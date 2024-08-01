@@ -8,12 +8,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/bleenco/abstruse/internal/auth"
-	api "github.com/bleenco/abstruse/pb"
-	"github.com/bleenco/abstruse/pkg/lib"
-	"github.com/bleenco/abstruse/server/api/render"
-	"github.com/bleenco/abstruse/worker/config"
-	"github.com/bleenco/abstruse/worker/http"
+	"github.com/lab23/abstruse/internal/auth"
+	api "github.com/lab23/abstruse/pb"
+	"github.com/lab23/abstruse/pkg/lib"
+	"github.com/lab23/abstruse/server/api/render"
+	"github.com/lab23/abstruse/worker/config"
+	"github.com/lab23/abstruse/worker/http"
 	"github.com/mholt/archiver/v3"
 )
 

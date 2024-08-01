@@ -3,8 +3,8 @@ package system
 import (
 	"net/http"
 
-	"github.com/bleenco/abstruse/internal/version"
-	"github.com/bleenco/abstruse/server/api/render"
+	"github.com/lab23/abstruse/internal/version"
+	"github.com/lab23/abstruse/server/api/render"
 )
 
 // HandleVersion returns an http.HandlerFunc that writes JSON

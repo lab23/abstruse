@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/bleenco/abstruse/pkg/gitscm"
-	"github.com/bleenco/abstruse/pkg/lib"
-	"github.com/bleenco/abstruse/server/core"
 	"github.com/drone/go-scm/scm"
 	"github.com/jinzhu/gorm"
+	"github.com/lab23/abstruse/pkg/gitscm"
+	"github.com/lab23/abstruse/pkg/lib"
+	"github.com/lab23/abstruse/server/core"
 )
 
 // New returns a new ProviderStore.

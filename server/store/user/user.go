@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bleenco/abstruse/internal/auth"
-	"github.com/bleenco/abstruse/server/core"
 	"github.com/jinzhu/gorm"
+	"github.com/lab23/abstruse/internal/auth"
+	"github.com/lab23/abstruse/server/core"
 )
 
 // New returns a new UserStore.

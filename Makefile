@@ -1,5 +1,5 @@
 ABSTRUSE_UI_VERSION=$(shell cat web/abstruse/package.json | grep version | head -1 | awk -F: '{ print $$2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]')
-ABSTRUSE_VERSION_PATH=github.com/bleenco/abstruse/internal/version
+ABSTRUSE_VERSION_PATH=github.com/lab23/abstruse/internal/version
 ifndef GIT_COMMIT
 	GIT_COMMIT=$(shell git rev-list -1 HEAD)
 endif
@@ -43,7 +43,9 @@ dev_worker:
 	@reflex -sr '\.go$$' -R '^web/' -R '^server/' -R '^configs/' -R '^tests/' -- sh -c 'make worker && ./build/abstruse-worker --logger-level debug'
 
 protoc:
-	@protoc ./pb/api.proto --go_out=plugins=grpc:./pb/
+	@protoc --go_out=. --go_opt=paths=source_relative ./pb/api.proto
+	@protoc --go-grpc_out=. --go-grpc_opt=paths=source_relative ./pb/api.proto
+
 
 docker: docker_server docker_worker
 

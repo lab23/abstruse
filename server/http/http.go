@@ -5,11 +5,11 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/bleenco/abstruse/server/api"
-	"github.com/bleenco/abstruse/server/config"
 	"github.com/dustin/go-humanize"
 	"github.com/felixge/httpsnoop"
 	"github.com/go-chi/chi/middleware"
+	"github.com/lab23/abstruse/server/api"
+	"github.com/lab23/abstruse/server/config"
 	"go.uber.org/zap"
 )
 

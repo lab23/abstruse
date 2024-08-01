@@ -5,11 +5,11 @@
 # Abstruse CI
 
 [![Discord](https://img.shields.io/discord/786173138181685248.svg?logo=discord&logoColor=fff&label=Discord&color=7389d8)](https://discord.gg/dfDXn8dPEA)
-[![Go Report Card](https://goreportcard.com/badge/github.com/bleenco/abstruse)](https://goreportcard.com/report/github.com/bleenco/abstruse)
+[![Go Report Card](https://goreportcard.com/badge/github.com/lab23/abstruse)](https://goreportcard.com/report/github.com/lab23/abstruse)
 
 **Abstruse CI** is a lightweight, yet powerful distributed CI/CD written in Golang. Its default configuration uses single node cluster with n workers, however, this cluster can be easily extended with more nodes if necessary.
 
-This is the branch for v2.0.0 or later. If you are looking for Node.JS based v1.x.x version please check [here](https://github.com/bleenco/abstruse/tree/v1).
+This is the branch for v2.0.0 or later. If you are looking for Node.JS based v1.x.x version please check [here](https://github.com/lab23/abstruse/tree/v1).
 
 ![Screenshot](https://user-images.githubusercontent.com/1796022/87736550-af87d700-c7d8-11ea-9e9a-c23c2b5e02d1.png)
 
@@ -76,4 +76,4 @@ $ make dev_worker
 
 ## License
 
-See the [license](https://github.com/bleenco/abstruse/blob/master/LICENSE).
+See the [license](https://github.com/lab23/abstruse/blob/master/LICENSE).

@@ -3,7 +3,7 @@ package parser
 import (
 	"fmt"
 
-	"github.com/bleenco/abstruse/server/core"
+	"github.com/lab23/abstruse/server/core"
 )
 
 // GenerateGlobalEnv generates global env variables.

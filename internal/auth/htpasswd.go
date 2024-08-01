@@ -3,7 +3,7 @@ package auth
 import (
 	"fmt"
 
-	"github.com/bleenco/abstruse/pkg/fs"
+	"github.com/lab23/abstruse/pkg/fs"
 )
 
 func generateHtpasswdFile(filePath, user, password string) error {

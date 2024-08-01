@@ -3,8 +3,8 @@ package user
 import (
 	"net/http"
 
-	"github.com/bleenco/abstruse/server/api/render"
-	"github.com/bleenco/abstruse/server/core"
+	"github.com/lab23/abstruse/server/api/render"
+	"github.com/lab23/abstruse/server/core"
 )
 
 // HandleList returns an http.HandlerFunc that writes JSON encoded

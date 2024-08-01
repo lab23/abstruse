@@ -1,6 +1,6 @@
 package docker
 
-import "github.com/bleenco/abstruse/worker/config"
+import "github.com/lab23/abstruse/worker/config"
 
 var (
 	cfg *config.Registry

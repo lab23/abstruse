@@ -6,8 +6,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/bleenco/abstruse/server/core"
 	"github.com/drone/go-scm/scm"
+	"github.com/lab23/abstruse/server/core"
 )
 
 const emptyCommit = "0000000000000000000000000000000000000000"

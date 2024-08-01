@@ -6,14 +6,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bleenco/abstruse/server/config"
-	"github.com/bleenco/abstruse/server/core"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mssql"    // mssql driver
 	_ "github.com/jinzhu/gorm/dialects/mysql"    // mysql driver
 	_ "github.com/jinzhu/gorm/dialects/postgres" // postres driver
 	_ "github.com/jinzhu/gorm/dialects/sqlite"   // sqlite driver
 	"github.com/jpillora/backoff"
+	"github.com/lab23/abstruse/server/config"
+	"github.com/lab23/abstruse/server/core"
 	"go.uber.org/zap"
 )
 

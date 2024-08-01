@@ -1,6 +1,6 @@
 package core
 
-import "github.com/bleenco/abstruse/internal/auth"
+import "github.com/lab23/abstruse/internal/auth"
 
 type (
 	// User represents user of the system.

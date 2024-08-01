@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/bleenco/abstruse/pkg/fs"
-	"github.com/bleenco/abstruse/server/api/render"
-	"github.com/bleenco/abstruse/server/config"
+	"github.com/lab23/abstruse/pkg/fs"
+	"github.com/lab23/abstruse/server/api/render"
+	"github.com/lab23/abstruse/server/config"
 )
 
 // HandleDownloadCache returns http.handlerFunc that writes

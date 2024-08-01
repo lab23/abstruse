@@ -4,9 +4,9 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/bleenco/abstruse/internal/auth"
-	"github.com/bleenco/abstruse/server/api/render"
-	"github.com/bleenco/abstruse/server/core"
+	"github.com/lab23/abstruse/internal/auth"
+	"github.com/lab23/abstruse/server/api/render"
+	"github.com/lab23/abstruse/server/core"
 )
 
 type ctxKey int

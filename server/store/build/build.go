@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bleenco/abstruse/pkg/gitscm"
-	"github.com/bleenco/abstruse/pkg/lib"
-	"github.com/bleenco/abstruse/server/core"
-	"github.com/bleenco/abstruse/server/parser"
 	"github.com/jinzhu/gorm"
+	"github.com/lab23/abstruse/pkg/gitscm"
+	"github.com/lab23/abstruse/pkg/lib"
+	"github.com/lab23/abstruse/server/core"
+	"github.com/lab23/abstruse/server/parser"
 	"google.golang.org/protobuf/encoding/protojson"
 )
 

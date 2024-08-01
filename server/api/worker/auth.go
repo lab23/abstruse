@@ -6,11 +6,11 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/bleenco/abstruse/server/api/middlewares"
-	"github.com/bleenco/abstruse/server/api/render"
-	"github.com/bleenco/abstruse/server/config"
-	"github.com/bleenco/abstruse/server/core"
-	"github.com/bleenco/abstruse/server/ws"
+	"github.com/lab23/abstruse/server/api/middlewares"
+	"github.com/lab23/abstruse/server/api/render"
+	"github.com/lab23/abstruse/server/config"
+	"github.com/lab23/abstruse/server/core"
+	"github.com/lab23/abstruse/server/ws"
 )
 
 // HandleAuth returns an http.HandlerFunc that writes JSON encoded

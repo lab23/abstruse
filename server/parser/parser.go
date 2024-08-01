@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	api "github.com/bleenco/abstruse/pb"
+	api "github.com/lab23/abstruse/pb"
 	yaml "gopkg.in/yaml.v2"
 )
 

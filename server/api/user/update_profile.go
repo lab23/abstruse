@@ -4,11 +4,11 @@ import (
 	"net/http"
 
 	"github.com/asaskevich/govalidator"
-	"github.com/bleenco/abstruse/internal/auth"
-	"github.com/bleenco/abstruse/pkg/lib"
-	"github.com/bleenco/abstruse/server/api/middlewares"
-	"github.com/bleenco/abstruse/server/api/render"
-	"github.com/bleenco/abstruse/server/core"
+	"github.com/lab23/abstruse/internal/auth"
+	"github.com/lab23/abstruse/pkg/lib"
+	"github.com/lab23/abstruse/server/api/middlewares"
+	"github.com/lab23/abstruse/server/api/render"
+	"github.com/lab23/abstruse/server/core"
 )
 
 // HandleUpdateProfile returns http.HandlerFunc that writes JSON encoded

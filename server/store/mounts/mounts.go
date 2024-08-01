@@ -1,8 +1,8 @@
 package mount
 
 import (
-	"github.com/bleenco/abstruse/server/core"
 	"github.com/jinzhu/gorm"
+	"github.com/lab23/abstruse/server/core"
 )
 
 // New returns a new MountsStore.

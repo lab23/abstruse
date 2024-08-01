@@ -6,11 +6,11 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/bleenco/abstruse/pkg/gitscm"
-	"github.com/bleenco/abstruse/server/api/render"
-	"github.com/bleenco/abstruse/server/core"
-	"github.com/bleenco/abstruse/server/service/githook"
-	"github.com/bleenco/abstruse/server/ws"
+	"github.com/lab23/abstruse/pkg/gitscm"
+	"github.com/lab23/abstruse/server/api/render"
+	"github.com/lab23/abstruse/server/core"
+	"github.com/lab23/abstruse/server/service/githook"
+	"github.com/lab23/abstruse/server/ws"
 	"go.uber.org/zap"
 )
 

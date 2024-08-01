@@ -9,11 +9,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bleenco/abstruse/internal/auth"
-	"github.com/bleenco/abstruse/pkg/lib"
-	"github.com/bleenco/abstruse/server/api/render"
-	"github.com/bleenco/abstruse/worker/config"
-	"github.com/bleenco/abstruse/worker/http"
+	"github.com/lab23/abstruse/internal/auth"
+	"github.com/lab23/abstruse/pkg/lib"
+	"github.com/lab23/abstruse/server/api/render"
+	"github.com/lab23/abstruse/worker/config"
+	"github.com/lab23/abstruse/worker/http"
 )
 
 func UploadCache(config *config.Config, filePath string) error {

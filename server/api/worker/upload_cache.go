@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bleenco/abstruse/server/api/render"
-	"github.com/bleenco/abstruse/server/config"
+	"github.com/lab23/abstruse/server/api/render"
+	"github.com/lab23/abstruse/server/config"
 )
 
 // HandleUploadCache returns http.handlerFunc that writes JSON encoded
